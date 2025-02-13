@@ -1,0 +1,26 @@
+body {
+  background-color: black; 
+  color: white; 
+}
+
+#credit {
+  position: fixed;
+  top: 10px;
+  left: 10px; 
+  font-size: 10px;
+  color: white;
+  background-color: transparent; 
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#neon-text {
+  position: absolute;
+  top: 50px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4em; /* Adjust font size as needed */
+  color: #ff00ff; /* Set your desired neon color */
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; /* Neon glow */
+  text-align: center;
+}
